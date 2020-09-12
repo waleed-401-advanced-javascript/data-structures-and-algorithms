@@ -19,5 +19,9 @@
   "homepage": "https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms#readme",
   "devDependencies": {
     "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "eslint": "^7.9.0",
+    "jsdocs": "^1.0.0"
   }
 }
