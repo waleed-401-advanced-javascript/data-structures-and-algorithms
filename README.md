@@ -8,7 +8,7 @@
 
 3. [BinarySearch](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/9)
 
-4. [linkedList](challanges/linkedlist/README.md)
+5. [linkedList](challanges/linkedlist/README.md)
 
 ____________________________________________
 
