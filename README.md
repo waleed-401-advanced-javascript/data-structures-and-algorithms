@@ -4,7 +4,7 @@
 ## Table of Contents
 1. [array reverse](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/7)
 
-2. [Shiftmid](challanges/arrayShift/README.md)
+2. [Shiftmid](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/8)
 
 3. [BinarySearch](challanges/arrayBinarySearch/README.md)
 
