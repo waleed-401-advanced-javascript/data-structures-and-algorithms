@@ -19,4 +19,4 @@ not exist .then return -1
 
 ## Solution
 <!-- Embedded whiteboard image -->
-![image](../../assets/binary.PNG)
+![image](../../assets/challenge-3.png)
