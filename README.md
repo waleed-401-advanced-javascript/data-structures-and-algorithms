@@ -8,6 +8,7 @@
 
 5. [linkedList](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/10)
 
+6. [ll_Insertions](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/12)
 
 ____________________________________________
 
