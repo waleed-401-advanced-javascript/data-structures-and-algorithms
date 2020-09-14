@@ -4,7 +4,9 @@
   "description": "Table of content",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --verbose"
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js' ",
+    "lint:fix": "eslint --fix --ext .js,.jsx ."
   },
   "repository": {
     "type": "git",
@@ -18,10 +20,10 @@
   },
   "homepage": "https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms#readme",
   "devDependencies": {
+    "eslint": "^7.9.0",
     "jest": "^26.4.2"
   },
   "dependencies": {
-    "eslint": "^7.9.0",
     "jsdocs": "^1.0.0"
   }
 }
