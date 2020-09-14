@@ -10,5 +10,7 @@
 
 6. [ll_Insertions](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/12)
 
+7.[ll-KTHfromlast](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/15)
+
 ____________________________________________
 
