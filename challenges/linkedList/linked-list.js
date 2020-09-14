@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 class Node {
   /**
@@ -24,10 +24,10 @@ class linkedlist {
     if (this.head === null) {
       this.head = node;
     } else {
-      console.log("I think you want to append.")
+      console.log('I think you want to append.');
     }
   }
-/**
+  /**
  * 
  * @param {This function check of the value entered exist in the list} val 
  */
@@ -37,24 +37,24 @@ class linkedlist {
       //console.log(count)
       if (current.data === val)
         return true;
-      current = current.next
+      current = current.next;
     }
-    return false
+    return false;
   }
-/**
+  /**
  * this turns the list to a string format
  */
   toString() {
     let current = this.head;
-    let content = "";
+    let content = '';
     while (current !== null) {
 
-      content = content + `{ ${current.data} } -> `
+      content = content + `{ ${current.data} } -> `;
       current = current.next;
     }
-    return content + 'NULL'
+    return content + 'NULL';
   }
-/**
+  /**
  * 
  * @param {This method appends the value entred to the last postion } val 
  */
@@ -63,12 +63,12 @@ class linkedlist {
     let node = new Node(val);
     while (current.next !== null) {
       current = current.next;
-      
+
     }
     current.next = node;
-    return this
+    return this;
   }
-/**
+  /**
  * 
  * @param {This the value to add before} val 
  * @param {This the new value to add } newVal 
@@ -76,18 +76,18 @@ class linkedlist {
 
   insertBefore(val, newVal) {
 
-    if(!this.head){
-      return("This is not a vlaid input")
+    if (!this.head) {
+      return ('This is not a vlaid input');
     }
     let current = this.head;
     let node = new Node(newVal);
 
     while (current.next !== null) {
       if (current.next.data === val) {
-        let switchedVal = current.next
-        current.next = node
-        node.next = switchedVal
-        return this
+        let switchedVal = current.next;
+        current.next = node;
+        node.next = switchedVal;
+        return this;
       }
 
       current = current.next;
@@ -102,22 +102,22 @@ class linkedlist {
  */
 
   insertAfter(val, newVal) {
-    if(!this.head){
-      return("This is not a vlaid input")
+    if (!this.head) {
+      return ('This is not a vlaid input');
     }
-   
+
     let current = this.head;
     let node = new Node(newVal);
 
     while (current.next !== null) {
       if (current.next.data === val) {
-       
-       
-        current = current.next
-         let switchedVal = current.next
-         current.next = node
-         node.next = switchedVal
-         return this
+
+
+        current = current.next;
+        let switchedVal = current.next;
+        current.next = node;
+        node.next = switchedVal;
+        return this;
       }
 
       current = current.next;
@@ -125,6 +125,47 @@ class linkedlist {
 
 
   }
+
+  /**
+   * 
+   * @param {value to look for } k 
+   */
+  kthFromEnd(k) {
+    if (!this.head) {
+      return ('This is not a vlaid input');
+    } else if (!this.includes(k)) {
+      return ('This is not a vlaid input');
+    } else {
+      let length = 0;
+      let counter = 0;
+      let current = this.head;
+      let currentSeconedLoop = this.head;
+      while (current.next !== null) {
+        length++;
+        current = current.next;
+
+
+      }
+      console.log('len', length);
+      while (currentSeconedLoop.data !== k && currentSeconedLoop !== null) {
+        counter++;
+        currentSeconedLoop = currentSeconedLoop.next;
+
+      }
+      console.log('counter', counter);
+      return length - counter;
+
+
+    }
+
+
+
+  }
+
+
+
+
+
 
 
 }
