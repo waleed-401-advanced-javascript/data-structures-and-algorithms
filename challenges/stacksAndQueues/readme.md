@@ -7,3 +7,12 @@ Write a classe to instantiate a queue and stack data structures and add them and
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 will i belive that all the methode added today were a big O of 1 becuse they were single action that resides in one single line of code with no itrations .
+1. push big 0 OF 1 
+2. pop big 0 OF 1
+3. peel big 0 OF 1  
+4. isEmpty big 0 OF 1 
+5. enqueue  big 0 OF 1
+6. dequeue  big 0 OF 1
+
+## Whiteboared
+![image](../../assets/challenge-10.png)
