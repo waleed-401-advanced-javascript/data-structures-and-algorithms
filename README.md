@@ -12,7 +12,10 @@
 
 7. [ll-KTHfromlast](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/15)
 
-8.[ll-zip](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/17)
+8. [ll-zip](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/17)
+
+8. [Stacks and Queues](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/19)
+
 
 ____________________________________________
 
