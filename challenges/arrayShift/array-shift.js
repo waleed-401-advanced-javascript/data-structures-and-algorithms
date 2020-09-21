@@ -1,5 +1,6 @@
 'use strict';
 
+// eslint-disable-next-line no-unused-vars
 function insertShiftArray(arr, num) {
 
   let midpoint = Math.ceil(arr.length / 2);

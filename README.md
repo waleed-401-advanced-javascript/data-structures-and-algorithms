@@ -16,6 +16,8 @@
 
 8. [Stacks and Queues](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/19)
 
+8. [stacks with queues](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/21)
+
 
 ____________________________________________
 
