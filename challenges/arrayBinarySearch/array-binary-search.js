@@ -1,5 +1,6 @@
 'use strict';
 
+// eslint-disable-next-line no-unused-vars
 function binarySearch(arr, key) {
   let i = 0;
   let j = arr.length;

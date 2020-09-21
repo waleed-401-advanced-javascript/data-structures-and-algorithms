@@ -1,6 +1,6 @@
 'use strict';
 
-const Stack = require('../../data-structures/stacksAndQueues/stacks.js');
+const Stack = require('../stacks-and-queues');
 
 
 class PseudoQueue {
