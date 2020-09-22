@@ -16,7 +16,9 @@
 
 8. [Stacks and Queues](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/19)
 
-8. [stacks with queues](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/23)
+8. [fifo animal shelter](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/23)
+
+8. [Bracket validator](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/25)
 
 
 ____________________________________________
