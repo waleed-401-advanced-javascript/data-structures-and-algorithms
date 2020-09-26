@@ -14,3 +14,5 @@ Insert and shift an array in middle at index.
 
 This solution has a Big O notation efficiency of O(n) for time and O(1) for space.
 
+## UML
+![image](../../assets/challenge-12.png)
