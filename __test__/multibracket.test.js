@@ -27,15 +27,15 @@ describe('multi bracked validation class',()=>{
   it ('should return false in this case', () => {
     expect(multiBracketValidation('[{]}')).toBeFalsy();
   });
-//   it ('should return false in this case', () => {
-//     expect(multiBracketValidation(']')).toBeFalsy();
-//   });
-//   it ('should return false in this case', () => {
-//     expect(multiBracketValidation('}')).toBeFalsy();
-//   });
-//   it ('should return false in this case', () => {
-//     expect(multiBracketValidation(')')).toBeFalsy();
-//   });
+  //   it ('should return false in this case', () => {
+  //     expect(multiBracketValidation(']')).toBeFalsy();
+  //   });
+  //   it ('should return false in this case', () => {
+  //     expect(multiBracketValidation('}')).toBeFalsy();
+  //   });
+  //   it ('should return false in this case', () => {
+  //     expect(multiBracketValidation(')')).toBeFalsy();
+  //   });
   it ('should return false in this case', () => {
     expect(multiBracketValidation('[}')).toBeFalsy();
   });
