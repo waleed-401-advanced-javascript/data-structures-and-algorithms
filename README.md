@@ -22,6 +22,8 @@
 
 12. [tree](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/26)
 
+12. [Finding max in tree](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/29)
+
 
 ____________________________________________
 

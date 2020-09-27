@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1601157943146" clover="3.2.0">
-  <project timestamp="1601157943147" name="All files">
-    <metrics statements="280" coveredstatements="272" conditionals="141" coveredconditionals="131" methods="40" coveredmethods="40" elements="461" coveredelements="443" complexity="0" loc="280" ncloc="280" packages="7" files="11" classes="11"/>
+<coverage generated="1601241058374" clover="3.2.0">
+  <project timestamp="1601241058375" name="All files">
+    <metrics statements="287" coveredstatements="279" conditionals="147" coveredconditionals="137" methods="42" coveredmethods="42" elements="476" coveredelements="458" complexity="0" loc="287" ncloc="287" packages="7" files="11" classes="11"/>
     <package name="fifoAnimalShelter">
       <metrics statements="45" coveredstatements="45" conditionals="22" coveredconditionals="22" methods="3" coveredmethods="3"/>
       <file name="fifo-animal-shelter.js" path="/home/waleed/data-structures-and-algorithms/challenges/fifoAnimalShelter/fifo-animal-shelter.js">
@@ -270,7 +270,7 @@
       </file>
     </package>
     <package name="tree">
-      <metrics statements="55" coveredstatements="55" conditionals="33" coveredconditionals="30" methods="12" coveredmethods="12"/>
+      <metrics statements="62" coveredstatements="62" conditionals="39" coveredconditionals="36" methods="14" coveredmethods="14"/>
       <file name="Binary-Search-Tree.js" path="/home/waleed/data-structures-and-algorithms/challenges/tree/Binary-Search-Tree.js">
         <metrics statements="28" coveredstatements="28" conditionals="18" coveredconditionals="16" methods="4" coveredmethods="4"/>
         <line num="3" count="1" type="stmt"/>
@@ -303,7 +303,7 @@
         <line num="55" count="1" type="stmt"/>
       </file>
       <file name="binary-tree.js" path="/home/waleed/data-structures-and-algorithms/challenges/tree/binary-tree.js">
-        <metrics statements="23" coveredstatements="23" conditionals="13" coveredconditionals="12" methods="7" coveredmethods="7"/>
+        <metrics statements="30" coveredstatements="30" conditionals="19" coveredconditionals="18" methods="9" coveredmethods="9"/>
         <line num="7" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
@@ -326,7 +326,14 @@
         <line num="35" count="9" type="stmt"/>
         <line num="37" count="1" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
-        <line num="44" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="45" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
       </file>
       <file name="tree-node.js" path="/home/waleed/data-structures-and-algorithms/challenges/tree/tree-node.js">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
