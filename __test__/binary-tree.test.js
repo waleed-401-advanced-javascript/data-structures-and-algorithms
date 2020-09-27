@@ -50,4 +50,9 @@ describe('Binary Tree', ()=> {
     let postOrderOutput = tree.postOrder();
     expect(postOrderOutput).toEqual(expected);
   }); 
+  it('find max value of tree', ()=> {
+    let expected = 9;
+    let max = tree.findMaximumValue();
+    expect(max).toEqual(expected);
+  }); 
 });

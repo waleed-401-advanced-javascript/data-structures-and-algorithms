@@ -65,14 +65,14 @@ describe('Binary Search Tree', ()=> {
     let treeContains = tree.contains(28);
     expect(treeContains).toBeTruthy();
   });
-  it('it will retrn if you try to add a number that exists',()=>{
+  it('it will return if you try to add a number that exists',()=>{
     let one = new Node(20);
     let tree = new BinarySearchTree(one);
     tree.add(26);
     console.log('trrrrr',tree);
     expect(tree.add(26)).toBeFalsy();
   });
-  it('it will retrn if you try to add a number that exists',()=>{
+  it('it will return if you try to add a number that exists',()=>{
     let one = new Node(20);
     let tree = new BinarySearchTree(one);
     tree.add(26);
@@ -80,5 +80,6 @@ describe('Binary Search Tree', ()=> {
     let treeContains = tree.contains(28);
     expect(treeContains).toBeFalsy();
   });
-    
+
+      
 });
