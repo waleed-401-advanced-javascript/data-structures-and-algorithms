@@ -1,5 +1,6 @@
 'use strict';
-
+const Node = require('../linkedList/node');
+const que = require('../stacksAndQueues/queues');
 
 class binaryTree{
 
@@ -50,6 +51,25 @@ class binaryTree{
     _travarse(this.root);
     return output;
 
+  }
+  breadthfirst(){
+    let output =[];
+    let breadhtQue = new que;
+    breadhtQue.enqueue(this.root);
+    console.log('ooooooooooooooooooooooooooo',breadhtQue);
+    console.log(breadhtQue.peek());
+    while (breadhtQue.peek()){
+      let value = breadhtQue.dequeue();
+      output.push(value);
+      console.log('kkkkkkkkkkkkkkkkkkkkkk',this);
+      // if(this.front.data.left){
+      //   breadhtQue.enqueue(this.front.data.left);
+      // }
+      // if(this.front.data.right){
+      //   breadhtQue.enqueue(this.front.right);
+      // }
+    }
+    return output;
   }
 
 }

@@ -1,39 +1,37 @@
 'use strict';
+const Node = require('../linkedList/node');
 class Queue {
+  constructor(){
+    this.front = null;
+  }
     
-  constructor() {
-    this.storage = [];
-  }
-  /**
-   * 
-   * @param {add the value you want to push to the que} value 
-   */
   enqueue(value) {
-    this.storage.push(value);
+    if(this.isEmpty()) {
+      this.front = new Node(value);
+      this.rear = this.front;
+    } else {
+      this.rear.next = new Node(value);
+      this.rear = this.rear.next;
+    }
   }
-  /**
- * this will remove the value from the from of the que (The oldest entered value)
- */
+    
   dequeue() {
-    if (this.isEmpty()) {
-      throw new RangeError('Queue is Empty!');
+    if(this.isEmpty()) {
+      throw new RangeError('Cannot dequeue an empty queue');
     }
-    return this.storage.shift();
+    let temp = this.front;
+    this.front = this.front.next;
+    temp.next = null;
+    return temp.data;
   }
-  /**
-   * This will peek at the last value entred
-   */
+    
   peek() {
-    if (this.isEmpty()) {
-      throw new RangeError('you can not peek and Empty Queue');
-    }
-    return this.storage[0];
+    if (this.front) { return this.front.data; }
+    throw new RangeError('Cannot peek an empty queue');
   }
-  /**
-   *  will check if the que is empty
-   */
+    
   isEmpty() {
-    return this.storage.length === 0;
+    return !this.front;
   }
 }
   

@@ -55,4 +55,9 @@ describe('Binary Tree', ()=> {
     let max = tree.findMaximumValue();
     expect(max).toEqual(expected);
   }); 
+  // it('find max value of tree', ()=> {
+  //   let expected = 9;
+  //   let max = tree.breadthfirst();
+  //   expect(max).toEqual(expected);
+  // }); 
 });
