@@ -24,7 +24,9 @@
 
 13. [Finding max in tree](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/29)
 
-14. [Breadth First](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/31)
+14. [Breadth First](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/30)
+
+15. [fizzbuzztree](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/31)
 
 
 

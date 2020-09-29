@@ -1,5 +1,6 @@
 'use strict';
 const { Queue } = require('../stacksAndQueues/stacksandqueues');
+const Node =require('./tree-node');
 
 class binaryTree{
 
@@ -71,9 +72,34 @@ class binaryTree{
     }
     return values;
   }
-
+  // One strategy for adding a new node to a binary tree
+  // is to fill all "child spots from the top down.
+  // To do so, we leverage breadth first traversal.
+  // During the traversal, we will find the first node
+  // that does not have 2 child nodes, and insert the
+  // new node as a child.
+  // Prefer filling from left to right.
+  add(val) {
+    const q = new Queue();
+    let current = this.root;
+    if (!current) {
+      this.root = new Node(val);
+      return;
+    }
+    q.enqueue(current);
+    while (q.peek()) {
+      current = q.dequeue();
+      if (!current.left) {
+        current.left = new Node(val);
+        return;
+      }
+      if (!current.right) {
+        current.right = new Node(val);
+        return;
+      }
+      q.enqueue(current.left);
+      q.enqueue(current.right);
+    }
+  }
 }
-
-
-module.exports=binaryTree;
-
+module.exports= binaryTree;
