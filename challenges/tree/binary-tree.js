@@ -1,5 +1,5 @@
 'use strict';
-
+const { Queue } = require('../stacksAndQueues/stacksandqueues');
 
 class binaryTree{
 
@@ -50,6 +50,26 @@ class binaryTree{
     _travarse(this.root);
     return output;
 
+  }
+  breadthFirst() {
+    const q = new Queue();
+    let current = this.root;
+    const values = [];
+    if (!current) {
+      return null;
+    }
+    q.enqueue(current);
+    while (q.peek()) {
+      current = q.dequeue();
+      values.push(current.value);
+      if (current.left) {
+        q.enqueue(current.left);
+      }
+      if (current.right) {
+        q.enqueue(current.right);
+      }
+    }
+    return values;
   }
 
 }
