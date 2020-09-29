@@ -1,6 +1,5 @@
 'use strict';
-const Node = require('../linkedList/node');
-const que = require('../stacksAndQueues/queues');
+const { Queue } = require('../stacksAndQueues/stacksandqueues');
 
 class binaryTree{
 
@@ -52,24 +51,25 @@ class binaryTree{
     return output;
 
   }
-  breadthfirst(){
-    let output =[];
-    let breadhtQue = new que;
-    breadhtQue.enqueue(this.root);
-    console.log('ooooooooooooooooooooooooooo',breadhtQue);
-    console.log(breadhtQue.peek());
-    while (breadhtQue.peek()){
-      let value = breadhtQue.dequeue();
-      output.push(value);
-      console.log('kkkkkkkkkkkkkkkkkkkkkk',this);
-      // if(this.front.data.left){
-      //   breadhtQue.enqueue(this.front.data.left);
-      // }
-      // if(this.front.data.right){
-      //   breadhtQue.enqueue(this.front.right);
-      // }
+  breadthFirst() {
+    const q = new Queue();
+    let current = this.root;
+    const values = [];
+    if (!current) {
+      return null;
     }
-    return output;
+    q.enqueue(current);
+    while (q.peek()) {
+      current = q.dequeue();
+      values.push(current.value);
+      if (current.left) {
+        q.enqueue(current.left);
+      }
+      if (current.right) {
+        q.enqueue(current.right);
+      }
+    }
+    return values;
   }
 
 }

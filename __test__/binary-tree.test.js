@@ -3,6 +3,7 @@
 const Node = require('../challenges/tree/tree-node');
 const BinaryTree =require('../challenges/tree/binary-tree');
 
+
 describe('Binary Tree', ()=> {
   // create a binary tree.
   // traverse it using the 3 methods
@@ -55,9 +56,15 @@ describe('Binary Tree', ()=> {
     let max = tree.findMaximumValue();
     expect(max).toEqual(expected);
   }); 
-  // it('find max value of tree', ()=> {
-  //   let expected = 9;
-  //   let max = tree.breadthfirst();
-  //   expect(max).toEqual(expected);
-  // }); 
+  it('find max value of tree', ()=> {
+    let expected = [1, 2, 3, 6, 4, 5, 7, 8, 9];
+    let max = tree.breadthFirst();
+    expect(max).toEqual(expected);
+  }); 
+  it('return null if list is empty', ()=> {
+    let expected = null;
+    let emptyTree = new BinaryTree;
+    let out = emptyTree.breadthFirst();
+    expect(out).toEqual(expected);
+  }); 
 });
