@@ -28,6 +28,9 @@
 
 15. [fizzbuzztree](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/31)
 
+16. [Insertion Sort](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/32)
+
+
 
 
 ____________________________________________
