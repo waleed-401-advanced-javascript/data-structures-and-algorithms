@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1602454427584" clover="3.2.0">
-  <project timestamp="1602454427584" name="All files">
-    <metrics statements="390" coveredstatements="366" conditionals="197" coveredconditionals="179" methods="55" coveredmethods="51" elements="642" coveredelements="596" complexity="0" loc="390" ncloc="390" packages="9" files="14" classes="14"/>
+<coverage generated="1602536721199" clover="3.2.0">
+  <project timestamp="1602536721200" name="All files">
+    <metrics statements="427" coveredstatements="403" conditionals="203" coveredconditionals="185" methods="57" coveredmethods="53" elements="687" coveredelements="641" complexity="0" loc="427" ncloc="427" packages="10" files="15" classes="15"/>
     <package name="fifoAnimalShelter">
       <metrics statements="45" coveredstatements="45" conditionals="22" coveredconditionals="22" methods="3" coveredmethods="3"/>
       <file name="fifo-animal-shelter.js" path="/home/waleed/data-structures-and-algorithms/challenges/fifoAnimalShelter/fifo-animal-shelter.js">
@@ -198,6 +198,49 @@
         <line num="34" count="2" type="stmt"/>
         <line num="39" count="1" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="mergeSort">
+      <metrics statements="37" coveredstatements="37" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="merge-sort.js" path="/home/waleed/data-structures-and-algorithms/challenges/mergeSort/merge-sort.js">
+        <metrics statements="37" coveredstatements="37" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="7" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="33" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="39" count="6" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="43" count="10" type="stmt"/>
+        <line num="45" count="5" type="stmt"/>
+        <line num="46" count="5" type="stmt"/>
+        <line num="47" count="5" type="stmt"/>
+        <line num="48" count="5" type="stmt"/>
+        <line num="53" count="5" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="59" count="5" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
       </file>
     </package>
     <package name="multiBracketValidation">
