@@ -32,6 +32,8 @@
 
 17. [Merge Sort](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/33)
 
+18. [Merge Sort](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/34)
+
 
 
 ____________________________________________
