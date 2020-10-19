@@ -1,0 +1,7 @@
+# TREE Itersection 
+<!-- Short summary or background information -->
+Write an instance method calledfind-maximum-value. Without utilizing any of the built-in methods available to your language, return the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+
+
+## Whiteboared
+![image](../../assets/33.png)
