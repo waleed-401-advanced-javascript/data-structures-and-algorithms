@@ -20,6 +20,7 @@ describe('Hash tables testing ',() => {
   test('Successfully returns null for a key that does not exist in the hashtable', () => {
     let table = new HashTable(1024);
     table.add('key1','value1');
+    console.log('table.get()',table.get('key3'));
     expect(table.get('key3')).toBeNull();
   });
   
