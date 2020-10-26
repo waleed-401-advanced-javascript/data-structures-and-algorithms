@@ -32,7 +32,17 @@
 
 17. [Merge Sort](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/33)
 
-18. [Merge Sort](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/34)
+18. [quick sort](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/34)
+
+18. [hashtables](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/35)
+
+19. [repeated word](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/36)
+
+20. [tree intersection](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/37)
+
+21. [GRAPH](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/38)
+
+
 
 
 

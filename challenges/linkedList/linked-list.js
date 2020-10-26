@@ -24,7 +24,11 @@ class linkedlist {
     if (this.head === null) {
       this.head = node;
     } else {
-      console.log('I think you want to append.');
+      let current = this.head;
+      while (current.next) {
+        current = current.next;
+      }
+      current.next = node;
     }
   }
   /**
