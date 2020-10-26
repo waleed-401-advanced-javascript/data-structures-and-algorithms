@@ -13,12 +13,12 @@ const ten = new Vertex(10);
 const two = new Vertex(2);
 const three = new Vertex(3);
 
-// graph.addVertex(two);
-// graph.addVertex(three);
-// graph.addVertex(six);
-// graph.addVertex(seven);
-// graph.addVertex(eight);
-// graph.addVertex(ten);
+// graph.add(two);
+// graph.add(three);
+// graph.add(six);
+// graph.add(seven);
+// graph.add(eight);
+// graph.add(ten);
 // graph.addDirectedEdge(two, seven);
 // graph.addDirectedEdge(three, eight);
 // graph.addDirectedEdge(six, seven);
@@ -30,16 +30,16 @@ const three = new Vertex(3);
 // graph.getNodes();
 describe('Graph data structure', () => {
   test('Node can be successfully added to the graph ', () => {
-    graph.addVertex(six);
+    graph.add(six);
     expect(graph._adjacencyList).toBeTruthy();
   });
   test('Node can be successfully added to the graph ', () => {
-    graph.addVertex(two);
-    graph.addVertex(three);
-    graph.addVertex(six);
-    graph.addVertex(seven);
-    graph.addVertex(eight);
-    graph.addVertex(ten);
+    graph.add(two);
+    graph.add(three);
+    graph.add(six);
+    graph.add(seven);
+    graph.add(eight);
+    graph.add(ten);
     graph.addDirectedEdge(two, seven);
     graph.addDirectedEdge(three, eight);
     graph.addDirectedEdge(six, seven);

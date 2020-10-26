@@ -24,7 +24,7 @@ class Graph {
     this._adjacencyList = new Map();
   }
 
-  addVertex(vertex) {
+  add(vertex) {
     this._adjacencyList.set(vertex, []);
   }
     
@@ -69,6 +69,28 @@ class Graph {
     return nodesNumber;
   }
     
+  bfs(node) {
+    if (node == undefined || node.value == undefined) { return 'wrong input'; }
+    let visited = [];
+    let complete = new Set();
+    visited.push(node);
+    complete.add(node);
+    while (visited.length > 0) {
+      let current = visited.shift();
+      let neighbours = this.GetNeighbours(current);
+      console.log('ni', neighbours);
+      for (let k of neighbours) {
+        console.log('vertex ni', k.vertex);
+        const niNode = k.vertex;
+        if (!complete.has(k.vertex)) {
+          complete.add(niNode);
+          visited.push(niNode);
+        }
+      }
+    }
+    console.log('visited', complete);
+    return complete;
+  }
 
 }
 

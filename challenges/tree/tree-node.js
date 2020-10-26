@@ -1,10 +1,10 @@
 'use strict';
 
 class Node {
-  constructor(val,left = null,right = null){
-    this.value =val;
-    this.left=left;
-    this.right=left;
+  constructor(value, left=null, right=null){
+    this.value = value;
+    this.leftChild =left;
+    this.rightChild = right;
   }
 }
 
