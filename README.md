@@ -42,6 +42,8 @@
 
 21. [GRAPH](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/38)
 
+22. [Depth first search](https://github.com/waleed-401-advanced-javascript/data-structures-and-algorithms/pull/44)
+
 
 
 
